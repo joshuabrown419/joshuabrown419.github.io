@@ -1,0 +1,21 @@
+body {
+	margin:0px;
+}
+
+.splash {
+	display:flex;
+}
+
+.splash-title {
+	top: 30%;
+	left: 30%;
+	z-index: 1;
+}
+
+.splash-image {
+	width:100%;
+	top: 0;
+	left: 0;
+	margin:0px;
+	z-index:0;
+}
