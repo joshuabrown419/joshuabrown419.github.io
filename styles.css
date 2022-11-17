@@ -7,12 +7,15 @@ body {
 }
 
 .splash-title {
-	top: 30%;
-	left: 30%;
+	position:relative;
+	margin:0;
+	padding-left: 30%;
+	padding-top: 15%;
 	z-index: 1;
 }
 
 .splash-image {
+	position:absolute;
 	width:100%;
 	top: 0;
 	left: 0;
