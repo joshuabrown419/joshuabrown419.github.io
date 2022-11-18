@@ -3,6 +3,14 @@ body {
 	background: black;
 }
 
+h1 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
 #namecard {
 	display: inline-flex;
 	flex-direction: row;
@@ -20,7 +28,7 @@ body {
 
 	width: 54vw;
 
-	background-color: rgba(239, 239, 240, 0.3);
+	background-color: rgba(255, 255, 252,  0.3);
 
 	border-radius: 2vw;
 }
@@ -36,6 +44,8 @@ body {
 	z-index: 1;
 	vertical-align: middle;
 	white-space: nowrap;
+	font-family: 'Nunito Sans', sans-serif;
+	color: #17213B;
 }
 
 #background-image {
@@ -49,7 +59,7 @@ body {
 
 #fade-to-content {
 	position: relative;
-	background: linear-gradient(rgba(23, 33, 59, 0), 30%, rgba(23, 33, 59, 1.0));
+	background: linear-gradient(rgba(19, 37, 47, 0), 30%, rgba(19, 37, 47, 1.0));
 	height: 20vw;
 	top: 11vw;
 	width: 100%;
@@ -59,5 +69,28 @@ body {
 	position: relative;
 	top: 11vw;
 	height: 9000px;
-	background: rgb(23, 33, 59);
+	background: rgb(19, 37, 47);
+}
+
+#test-header {
+	padding-left: 15vw;
+	padding-top: 6vw;
+	color: #F26419;
+	font-size: 4vw;
+}
+
+#test-bar {
+	position:fixed;
+	background-color: #648DE5;
+	width: 100%;
+	height: 2.5vw;
+	top:0;
+	left:0;
+	z-index: 2;
+}
+
+#test {
+	padding-left: 15vw;
+	font-size: 1vw;
+	color: #F6AE2D;
 }
