@@ -17,20 +17,27 @@ p {
 	display: inline-flex;
 	flex-direction: row;
 
-	position: relative;
 	margin: 0;
-	margin-left: 5%;
-	margin-top: 12%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	z-index: 1;
+	padding: 2.5%;
+	padding-bottom: 1.5%;
 
 	align-items: center;
 	justify-content: space-evenly;
+}
 
-	width: 54vw;
+#titlecard {
+	display: inline-flex;
+	flex-direction: column;
 
-	background-color: rgba(255, 255, 252,  0.3);
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 12%;
+	z-index: 1;
+
+	width: 60vw;
+
+	background-color: rgba(255, 255, 252, 0.3);
 
 	border-radius: 2vw;
 }
@@ -59,24 +66,49 @@ p {
 	z-index:-1;
 }
 
+#linkcard {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+
+	padding-right: 3%;
+	padding-bottom: 2.5%;
+}
+
+.link-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5vw;
+}
+
+.linkcard-image {
+	width: 13%;
+}
+
+.linkcard-link {
+	font-size: 1.6vw;
+	color: #234557;
+	text-decoration: none;
+	font-family: "Nunito Sans";
+}
+
+.linkcard-link:hover {
+	text-decoration: underline;
+}
+
 #fade-to-content {
 	position: relative;
 	background: linear-gradient(rgba(19, 37, 47, 0), 30%, rgba(19, 37, 47, 1.0));
 	height: 20vw;
-	top: 11vw;
+	top: 8vw;
 	width: 100%;
 }
 
 #content {
 	position: relative;
-	top: 11vw;
+	top: 8vw;
 	height: 9000px;
 	background: rgb(19, 37, 47);
-}
-
-#test-header {
-	padding-left: 15vw;
-	padding-top: 6vw;
-	color: #F26419;
-	font-size: 4vw;
 }
