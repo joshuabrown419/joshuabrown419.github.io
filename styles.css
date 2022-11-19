@@ -32,7 +32,7 @@ p {
 	position: relative;
 	margin: 0;
 	margin-left: 2%;
-	margin-top: 12%;
+	margin-top: 10%;
 	z-index: 1;
 
 	width: 60vw;
@@ -89,7 +89,7 @@ p {
 
 .linkcard-link {
 	font-size: 1.6vw;
-	color: #234557;
+	color: #713354;
 	text-decoration: none;
 	font-family: "Nunito Sans";
 }
