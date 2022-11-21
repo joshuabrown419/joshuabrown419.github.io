@@ -100,7 +100,7 @@ p {
 
 #fade-to-content {
 	position: relative;
-	background: linear-gradient(rgba(19, 37, 47, 0), 30%, rgba(19, 37, 47, 1.0));
+	background: linear-gradient(rgba(19, 37, 47, 0), rgba(19, 37, 47, 1.0));
 	height: 20vw;
 	top: 8vw;
 	width: 100%;
