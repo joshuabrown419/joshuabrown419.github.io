@@ -102,13 +102,34 @@ p {
 	position: relative;
 	background: linear-gradient(rgba(19, 37, 47, 0), rgba(19, 37, 47, 1.0));
 	height: 20vw;
-	top: 8vw;
+	top: 11.4vw;
 	width: 100%;
 }
 
 #content {
+	display: flex;
+	flex-direction: column;
+
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 10vw;
+
 	position: relative;
-	top: 8vw;
-	height: 9000px;
+	top: 11.4vw;
 	background: rgb(19, 37, 47);
+	height: calc(100vh - 10vw);
+}
+
+.content-header {
+	color: #FAE62D;
+	font-family: "Nunito-Sans", sans-serif;
+	font-size: 3.5vw;
+	margin-bottom: 1.5vw;
+}
+
+.content-text {
+	color: #F26419;
+	font-family: "Nunito-Sans", sans-serif;
+	font-size: 1.35vw;
+	margin-left: 1.5vw;
 }
